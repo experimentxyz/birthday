@@ -26,6 +26,7 @@ body {
   
   .swiper-slide img {
     width: auto;
+    box-sizing: border-box;
     height: 250px;
     border-radius: 8px;
     margin-bottom: 10px;
