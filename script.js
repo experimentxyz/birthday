@@ -11,13 +11,16 @@ document.addEventListener('DOMContentLoaded', function () {
         clickable: true,
       },
       slidesPerView: 1,
-      spaceBetween: 20,
+      spaceBetween: 10,
       breakpoints: {
-        768: {
+        300: {
           slidesPerView: 1,
         },
+        768: {
+          slidesPerView: 3,
+        },
         1024: {
-          slidesPerView: 3.4,
+          slidesPerView: 4,
         },
       },
     });
